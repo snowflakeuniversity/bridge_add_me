@@ -39,7 +39,7 @@ st.write('Does your URL start like this? https://app.snowflake.com/us-west-2.aws
 
 if st.button('Add My Account to the Bridge-2023 Exchange'):
      try:
-        command_to_add_account = ('CALL STREAMLIT_INPUT.ST_FORM_DATA.SP_ADD_AL_TO_ACME_ADU(\''+ my_account_locator+'\')')
+        command_to_add_account = ('CALL STREAMLIT_INPUT.ST_FORM_DATA.SP_ADD_AL_TO_BRIDGE_DX(\''+ my_account_locator+'\')')
         #st.write(command_to_add_account)
         my_result=snowflake_command(command_to_add_account)   
      except URLError as e:
