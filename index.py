@@ -24,7 +24,7 @@ st.text('Powered by Snowflake')
 current_region_function = "https://learn.snowflake.com/asset-v1:snowflake+ESS-SMEW+C+type@asset+block@current_region_function.png"
 st.image(current_region_function)
 
-st.markdown('Only accounts in the AWS West Region (as shown above) can be added to the Bridge-2023 Private Exchange that your instructors set up to share data with you. If your account is in the correct region, submit your account locator below.')
+st.markdown('Only accounts in the AWS West Region (as shown above) can be added to the Bridge-2023 Private Exchange. This exchange was set up so that all learners can efficiently share data with each other. If your account is in the correct region, submit your account locator below.')
 
 
  
