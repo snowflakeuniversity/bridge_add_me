@@ -33,7 +33,7 @@ st.image(current_account_function)
 
 my_account_locator = st.text_input('What result do you get if you run the CURRENT_ACCOUNT function?', 'abc12345')
 
-st.write('Does your URL start like this? https://app.snowflake.com/us-west-2.aws/'  +  my_account_locator + '/...')    
+st.write('Does your URL start like this? https://app.snowflake.com/us-west-2/'  +  my_account_locator + '/...')    
 
 #st.stop()
 
