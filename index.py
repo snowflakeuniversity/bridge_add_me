@@ -5,7 +5,7 @@ from urllib.error import URLError
 def init_connection():
     return snowflake.connector.connect(**st.secrets["snowflake"])
 
-my_cnx = init_connection()
+# my_cnx = init_connection()
 
 def snowflake_command(my_command):
     my_cur = my_cnx.cursor()
